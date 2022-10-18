@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F4062DCD28FF643B00051825 /* DemoProjectiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4062DC528FF643A00051825 /* DemoProjectiOS.framework */; };
-		F4062DD228FF643B00051825 /* DemoProjectiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4062DD128FF643B00051825 /* DemoProjectiOSTests.swift */; };
 		F4062DD328FF643B00051825 /* DemoProjectiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F4062DC728FF643A00051825 /* DemoProjectiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4062DDB28FF722800051825 /* FeedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4062DDA28FF722800051825 /* FeedViewControllerTests.swift */; };
 		F4D6BAD628DBB8B60060C22A /* DemoProject.docc in Sources */ = {isa = PBXBuildFile; fileRef = F4D6BAD528DBB8B60060C22A /* DemoProject.docc */; };
 		F4D6BADC28DBB8B70060C22A /* DemoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D6BAD128DBB8B60060C22A /* DemoProject.framework */; };
 		F4D6BAE228DBB8B70060C22A /* DemoProject.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D6BAD428DBB8B60060C22A /* DemoProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -99,7 +99,7 @@
 		F4062DC528FF643A00051825 /* DemoProjectiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DemoProjectiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4062DC728FF643A00051825 /* DemoProjectiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoProjectiOS.h; sourceTree = "<group>"; };
 		F4062DCC28FF643A00051825 /* DemoProjectiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoProjectiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4062DD128FF643B00051825 /* DemoProjectiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoProjectiOSTests.swift; sourceTree = "<group>"; };
+		F4062DDA28FF722800051825 /* FeedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewControllerTests.swift; sourceTree = "<group>"; };
 		F4D6BAD128DBB8B60060C22A /* DemoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DemoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D6BAD428DBB8B60060C22A /* DemoProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoProject.h; sourceTree = "<group>"; };
 		F4D6BAD528DBB8B60060C22A /* DemoProject.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DemoProject.docc; sourceTree = "<group>"; };
@@ -214,7 +214,7 @@
 		F4062DD028FF643B00051825 /* DemoProjectiOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				F4062DD128FF643B00051825 /* DemoProjectiOSTests.swift */,
+				F4062DDA28FF722800051825 /* FeedViewControllerTests.swift */,
 			);
 			path = DemoProjectiOSTests;
 			sourceTree = "<group>";
@@ -675,7 +675,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4062DD228FF643B00051825 /* DemoProjectiOSTests.swift in Sources */,
+				F4062DDB28FF722800051825 /* FeedViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
