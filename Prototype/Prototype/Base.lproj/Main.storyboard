@@ -64,7 +64,7 @@
                                                         </label>
                                                     </subviews>
                                                 </stackView>
-                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ca-Qx-cP4" userLabel="Image Container">
+                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ca-Qx-cP4" userLabel="Item Container">
                                                     <rect key="frame" x="0.0" y="47" width="374" height="374"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PfZ-i5-Xg9">
@@ -110,6 +110,7 @@
                                 </constraints>
                                 <connections>
                                     <outlet property="descriptionLabel" destination="8Dv-nl-C1v" id="Frm-2D-cEC"/>
+                                    <outlet property="feedItemContainer" destination="5Ca-Qx-cP4" id="V2L-Io-iGW"/>
                                     <outlet property="feedItemView" destination="PfZ-i5-Xg9" id="C78-Kq-xac"/>
                                     <outlet property="locationContainer" destination="hLV-6a-SwW" id="aGO-zH-oc5"/>
                                     <outlet property="locationLabel" destination="RjN-2c-a9I" id="dUP-5s-c1r"/>
